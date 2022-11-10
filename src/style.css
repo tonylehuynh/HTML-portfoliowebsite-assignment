@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #FFFFFB;
 }
 
 p {
@@ -26,6 +25,10 @@ h1 {
 
 li {
     list-style-type: none;
+}
+
+section {
+    background-color: #FFFFFB;
 }
 
 /* .maincontent {
@@ -157,3 +160,43 @@ nav {
     color: #171515;
 }
 
+/*  FOOTER */
+
+footer {
+    background-color: #40434F;
+}
+
+.footer_logo {
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.footer_logoimage {
+    height: 50px;
+    width: 80.19px;
+}
+
+.footer_pages {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 28px;
+}
+
+.footer_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.footer_links,
+.footer_copyright {
+    color: white;
+}
+
+.footer_copyright {
+    font-size: 12px;
+}
