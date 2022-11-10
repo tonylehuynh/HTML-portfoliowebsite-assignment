@@ -67,5 +67,17 @@ nav {
 }
 
 .nav_links:hover {
-    opacity: 80%
+    opacity: 80%;
+}
+
+.nav_logo:hover {
+    opacity: 60%;
+}
+
+/* Banner styling */
+
+.banner {
+    background-color: #F35353;
+    width: 100%;
+    height: 140px;
 }
