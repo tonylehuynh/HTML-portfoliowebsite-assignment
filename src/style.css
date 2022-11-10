@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #FFFFFB;
 }
 
 p {
@@ -39,8 +40,9 @@ nav {
 }
 
 .nav_logo {
-    height: 44px;
-    width: 70.57px;
+    height: 50px;
+    width: 80.19px;
+    margin: 0 20px;
 }
 
 .nav_links {
@@ -53,7 +55,7 @@ nav {
 /* Contact button in nav bar */
 .nav_link_contact {
     margin: 0 20px;
-    background-color: #F35353;
+    background-color: #FF4B4B;
     padding: 8px 16px;
     border-radius: 80px;
     color: white;
@@ -77,7 +79,32 @@ nav {
 /* Banner styling */
 
 .banner {
-    background-color: #F35353;
+    background-color: #FF4B4B;
     width: 100%;
-    height: 140px;
+    height: 120px;
+}
+
+/* ABOUT ME SECTION */
+
+#about_me{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_me_flex {
+    flex: 1;
+}
+
+.about_me_info {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about_me_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
