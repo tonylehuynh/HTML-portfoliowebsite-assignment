@@ -107,6 +107,13 @@ nav {
     flex-direction: column;
 }
 
+/* more vertical height for pages that aren't the index */
+#about_mepages {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .info_section {
     display: flex;
     flex-direction: column;
