@@ -117,6 +117,7 @@ nav {
 .aboutme_container {
     max-width: 700px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .picture_container {
@@ -153,16 +154,6 @@ nav {
     font-size: 20px;
     text-decoration: none;
     padding: 0 24px;
-}
-
-.linkedin {
-    color: #0072b1;
-}
-
-.github {
     color: #171515;
 }
 
-.resume {
-    color: #171515;
-}
