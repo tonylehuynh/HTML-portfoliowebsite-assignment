@@ -58,3 +58,25 @@
 .work_list {
     line-height: 28px;
 }
+
+.resume_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 16px;
+}
+.work_resume {
+    font-size: 12px;
+    color: white;
+    background-color: #40434F;
+    padding: 4px 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    opacity: 90%;
+    
+}
+
+.work_resume:hover {
+    opacity: 70%;
+}
