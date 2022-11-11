@@ -71,5 +71,10 @@
     
     .bio_container {
         width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bio_section {
+        border-bottom: none;
     }
 }

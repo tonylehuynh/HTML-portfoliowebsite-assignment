@@ -37,6 +37,9 @@ section {
     flex: 1;
 }
 
+.main_content {
+    margin-bottom: 20px;
+}
 
 /* NAVIGATION BAR */
 

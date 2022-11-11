@@ -53,4 +53,8 @@ form {
     form {
         width: 180px;
     }
+    .info_section,
+    .contactform_section {
+        padding: 0 16px;
+    }
 }
