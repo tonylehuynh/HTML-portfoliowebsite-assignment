@@ -1,0 +1,41 @@
+/* STYLING FOR THE WORK HISTORY PAGE */
+
+.location_paragraph {
+    opacity: 90%;
+}
+
+.workhistory_section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.fulltime_container {
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.study_container {
+    margin-bottom: 20px;
+}
+
+.work_header {
+    border-bottom: 1px solid #C7C7C7;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+.work_header,
+.work_position,
+.work_dates,
+.work_list {
+    text-align: left;
+}
+
+.work_container {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+}
