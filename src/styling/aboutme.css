@@ -7,18 +7,36 @@
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 2vh;
-    padding-bottom: 8vh;
+    padding-top: 4vh;
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 8vh;
 }
 
+/* Styling for skills section */
+
 .skills_container {
-    border: 1px solid black;
-    height: 100px;
+    height: 100vh;
     width: 33%;
+    margin-right: 44px;
+    line-height: 40px;
+}
+
+.bio_headings {
+    text-align: left;
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 16px;
+}
+
+.listitems_container {
+    font-size: 16px;
+}
+
+.skills_list {
+    list-style-type: circle;
+    padding-left: 24px;
 }
 
 .bio_container {
-    border: 1px solid black;
-    height: 100px;
+    height: 100vh;
     width: 67%;
 }

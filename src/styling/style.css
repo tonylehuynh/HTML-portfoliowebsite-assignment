@@ -24,9 +24,9 @@ h1 {
     font-style: italic;
 }
 
-li {
-    list-style-type: none;
-}
+/* li {
+    /* list-style-type: none; */
+
 
 section {
     background-color: #FFFFFB;
@@ -53,6 +53,7 @@ nav {
 
 .nav_list {
     display: flex;
+    list-style-type: none;
 }
 
 .nav_logo {
