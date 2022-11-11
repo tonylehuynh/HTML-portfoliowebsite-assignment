@@ -1,4 +1,7 @@
 /* STYLING FOR THE CONTACT FORM */
+.contactform_section {
+    flex: 1;
+}
 
 form {
     display: flex;
@@ -40,4 +43,14 @@ form {
 .message {
     resize: vertical;
     height: 120px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Small phone sizing */
+@media (max-width: 480px) {
+    form {
+        width: 180px;
+    }
 }
