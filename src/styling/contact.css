@@ -6,10 +6,9 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 600px;
 }
 .contactform_container {
-    height: 280x;
     border: 1px solid black;
     border-radius: 8px;
     padding: 20px 20px;
@@ -21,10 +20,10 @@ form {
 
 .form_element {
     margin-bottom: 20px;
-    text-align: left;
     border: 1.4px solid black;
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 1px;
+    padding: 8px 0;
 }
 
 .form_button {
@@ -51,7 +50,7 @@ form {
 /* Small phone sizing */
 @media (max-width: 480px) {
     form {
-        width: 180px;
+        width: 240px;
     }
     .info_section,
     .contactform_section {
