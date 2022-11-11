@@ -3,27 +3,41 @@
 form {
     display: flex;
     flex-direction: column;
+    width: 200px;
 }
 .contactform_container {
     height: 280x;
-    max-width: 700px;
     border: 1px solid black;
     border-radius: 8px;
     padding: 20px 20px;
     margin-bottom: 32px;
-    background-color: #ECECEC;
+    background-color: #DDDDDD;
+    box-shadow: 0px 0px 2px 1px grey;
+    border: 1.4px solid black;
 }
 
-.form_element,
-.form_button {
-    margin-bottom: 30px;
+.form_element {
+    margin-bottom: 20px;
+    text-align: left;
+    border: 1.4px solid black;
+    font-size: 12px;
+    border-radius: 1px;
 }
 
 .form_button {
     background-color: #FF4B4B;
     border-radius: 12px;
-    padding: 12px 0px;
+    padding: 8px 0px;
     border: none;
     color: white;
     font-size: 20px;
+}
+
+.form_button:hover {
+    opacity: 80%;
+}
+
+.message {
+    resize: vertical;
+    height: 120px;
 }
