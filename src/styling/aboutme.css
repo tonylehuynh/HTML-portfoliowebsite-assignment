@@ -3,19 +3,17 @@
 .bio_section {
     display: flex;
     flex-direction: row;
-    width: 100%;
     max-width: 700px;
-    width: 100%;
     margin: 0 auto;
-    padding-top: 4vh;
-    border-bottom: 1px solid #C7C7C7;
+    margin-top: 4vh;
     margin-bottom: 8vh;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid #C7C7C7;
 }
 
 /* Styling for skills section */
 
 .skills_container {
-    height: 100vh;
     width: 33%;
     margin-right: 44px;
     line-height: 40px;
@@ -36,7 +34,42 @@
     padding-left: 24px;
 }
 
+/* Styling for bio section */
+
 .bio_container {
-    height: 100vh;
     width: 67%;
+}
+
+
+/*  RESPONSIVE DESIGN */
+
+
+/* Tablet sizing */
+@media (max-width: 830px) {
+    .bio_section {
+        max-width: 600px;
+    }
+}
+
+/* Small phone sizing */
+@media (max-width: 480px) {
+    .bio_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 360px;
+        margin-top: 12px;
+        padding: 16px 16px;
+    }
+
+    .skills_container {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .bio_container {
+        width: 100%;
+    }
 }
