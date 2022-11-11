@@ -1,0 +1,29 @@
+/* STYLING FOR THE CONTACT FORM */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.contactform_container {
+    height: 280x;
+    max-width: 700px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px 20px;
+    margin-bottom: 32px;
+    background-color: #ECECEC;
+}
+
+.form_element,
+.form_button {
+    margin-bottom: 30px;
+}
+
+.form_button {
+    background-color: #FF4B4B;
+    border-radius: 12px;
+    padding: 12px 0px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}

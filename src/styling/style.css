@@ -114,7 +114,8 @@ nav {
     flex-direction: column;
 }
 
-.info_section {
+.info_section,
+.contactform_section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,6 +161,7 @@ nav {
 .aboutme_socials {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .social_link {
     font-size: 20px;
