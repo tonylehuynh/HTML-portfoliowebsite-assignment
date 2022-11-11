@@ -24,6 +24,7 @@ flex-wrap: wrap;
     opacity: 80%;
 }
 
+
 .blog_figure {
     width: 100%;
     height: auto;
@@ -64,4 +65,14 @@ flex-wrap: wrap;
     padding-top: 8px;
     font-size: 8px;
     max-width: 240px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Small phone sizing */
+@media (max-width: 480px) {
+    .blog_post {
+        width: 320px;
+    }
 }
