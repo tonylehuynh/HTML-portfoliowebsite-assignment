@@ -32,8 +32,9 @@ flex-wrap: wrap;
 
 
 .blog_figure {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 360px;
+    margin: 0 auto;
 }
 
 .blog_img {
@@ -74,11 +75,16 @@ flex-wrap: wrap;
 }
 
 
+
 /* RESPONSIVE DESIGN */
 
 /* Small phone sizing */
 @media (max-width: 480px) {
     .blog_post {
+        width: 320px;
+    }
+
+    .blog_figure {
         width: 320px;
     }
 }
