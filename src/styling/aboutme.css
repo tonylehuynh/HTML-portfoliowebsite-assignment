@@ -11,7 +11,7 @@
     border-bottom: 1px solid #C7C7C7;
 }
 
-/* Styling for skills section */
+/* SKILLS LIST */
 
 .skills_container {
     width: 33%;
@@ -34,7 +34,7 @@
     padding-left: 24px;
 }
 
-/* Styling for bio section */
+/* BIO CONTENT */
 
 .bio_container {
     width: 67%;

@@ -16,6 +16,7 @@
     margin-bottom: 20px;
 }
 
+/* STUDY SECTION */
 .study_container {
     margin-bottom: 20px;
 }
@@ -33,6 +34,7 @@
     text-align: left;
 }
 
+/* WORK DETAILS SECTION */
 .work_container {
     border: 1px solid black;
     border-radius: 4px;
@@ -58,6 +60,9 @@
 .work_list {
     line-height: 28px;
 }
+
+
+/* RESUME BUTTON */
 
 .resume_container {
     display: flex;
