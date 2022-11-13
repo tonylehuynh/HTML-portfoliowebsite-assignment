@@ -7,7 +7,7 @@ Published portfolio website - [Link](https://tonylehuynh.netlify.app/)
 
 GitHub portfolio website repository - [Link](https://github.com/tonylehuynh/Portfolio-Assignment_T1A2)
 
-Presentation video - [Link](https://www.google.com)
+Presentation video - [Link](https://youtu.be/ASEqQivYstk)
 
 ## **Portfolio Website Description**
 
